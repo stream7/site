@@ -33,6 +33,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li> -->
         <li>
+          <span>22/04</span>
+          <%= link_to 'Workable shines as a Helios sponsor', '#helios' %>
+        </li>
+        <li>
           <span>18/04</span>
           <%= link_to 'Engine Yard is a Helios sponsor', '#helios' %>
         </li>
@@ -55,10 +59,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>10/04</span>
           <%= link_to 'SoundCloud is a Selene sponsor', '#selene' %>
-        </li>
-        <li>
-          <span>09/04</span>
-          <%= link_to 'Avarteq is a Selene sponsor', '#selene' %>
         </li>
       </ul>
     </div>
@@ -215,6 +215,19 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <p>
             <%= link_to 'Engine Yard', 'http://www.engineyard.com/?utm_source=euruko&utm_medium=description&utm_campaign=helios', target: "_blank" %>
             is the leading Platform as a Service (PaaS) empowering developers to plan, build, deploy and manage applications in the cloud.
+          </p>
+        </li>
+
+        <li id="workable">
+          <% link_to 'http://www.workablehr.com?utm_source=euruko&utm_medium=banner&utm_campaign=helios', :target => '_blank' do %>
+            <%= image_tag "sponsors/workable_250x125.png", alt: "Workable Logo", title: "Workable", itemprop: "image", width: "250", height: "150" %>
+          <% end %>
+
+          <p>
+            <%= link_to 'Workable', 'http://www.workablehr.com?utm_source=euruko&utm_medium=description&utm_campaign=helios', target: "_blank" %>
+            is a popular recruitment and applicant tracking Sofrware as a Service
+            (SaaS) built with Rails. Founded in 2012, the company has raised
+            723.59K &euro; in seed funding and employs 9 people in Athens.
           </p>
         </li>
 
